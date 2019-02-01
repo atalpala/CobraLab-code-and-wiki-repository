@@ -1,0 +1,95 @@
+#================================================
+# Generated material file for input into vampire
+#================================================
+#
+# File timestamp: 
+#
+#------------------------------------------------
+# Number of Materials
+#------------------------------------------------
+material:num-materials=9
+#------------------------------------------------
+# Material 1 (CoFe)
+#------------------------------------------------
+material[1]:material-name=CoFe
+material[1]:damping-constant=1.0
+material[1]:atomic-spin-moment=2.5 !muB
+material[1]:uniaxial-anisotropy-constant=1e-23
+material[1]:material-element=Fe
+material[1]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 2 (Ru)
+#------------------------------------------------
+material[2]:material-name=Ru
+material[2]:damping-constant=1
+material[2]:atomic-spin-moment=1 !muB
+material[2]:uniaxial-anisotropy-constant=0
+material[2]:non-magnetic = remove
+material[2]:material-element=Ru
+material[2]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 3 (CoFe)
+#------------------------------------------------
+material[3]:material-name=CoFe
+material[3]:damping-constant=1.0
+material[3]:atomic-spin-moment=2.5 !muB
+material[3]:uniaxial-anisotropy-constant=0
+material[3]:material-element=Fe
+material[3]:initial-spin-direction=0.2,0,-1
+#------------------------------------------------
+# Material 4 (Reference-MgO-Interface)
+#------------------------------------------------
+material[4]:material-name=Reference-MgO-Interface
+material[4]:damping-constant=1.0
+material[4]:atomic-spin-moment=2.5 !muB
+material[4]:uniaxial-anisotropy-constant=1.0e-23
+material[4]:material-element=Li
+material[4]:initial-spin-direction=0.1,0,-1
+#------------------------------------------------
+# Material 5 (Magnesium)
+#------------------------------------------------
+material[5]:material-name=Magnesium
+material[5]:damping-constant=1.0
+material[5]:atomic-spin-moment=1 !muB
+material[5]:uniaxial-anisotropy-constant=0
+material[5]:non-magnetic = remove
+material[5]:material-element=Mg
+material[5]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 6 (Oxygen)
+#------------------------------------------------
+material[6]:material-name=Oxygen
+material[6]:damping-constant=1.0
+material[6]:atomic-spin-moment=1 !muB
+material[6]:uniaxial-anisotropy-constant=0
+material[6]:non-magnetic = remove
+material[6]:material-element=O
+material[6]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 7 (FeO)
+#------------------------------------------------
+material[7]:material-name=FeO
+material[7]:damping-constant=0.1
+material[7]:atomic-spin-moment=5 !muB
+material[7]:uniaxial-anisotropy-constant=0
+material[7]:material-element=Fe
+material[7]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 8 (CoFe/MgO) interface
+#------------------------------------------------
+material[8]:material-name=CoFe
+material[8]:damping-constant=1.0
+material[8]:atomic-spin-moment=2.5 !muB
+material[8]:uniaxial-anisotropy-constant=1e-23
+material[8]:material-element=Li
+material[8]:initial-spin-direction=0,0,1
+#------------------------------------------------
+# Material 9 (CoFe)
+#------------------------------------------------
+material[9]:material-name=CoFe
+material[9]:damping-constant=1.0
+material[9]:atomic-spin-moment=2.5 !muB
+material[9]:uniaxial-anisotropy-constant=0.0
+material[9]:material-element=Fe
+material[9]:initial-spin-direction=0,0,1
+#------------------------------------------------
